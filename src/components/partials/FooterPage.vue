@@ -66,6 +66,7 @@
 </script>
 
 <style scoped>
+
      
 
 
@@ -74,7 +75,7 @@
      }
 
      .footer {
-          background-image: linear-gradient(to right, blue, #006a4a3d);
+          background-color: #004e92;
           padding: 50px;
      }
 
@@ -93,7 +94,7 @@
 
      a:hover,
      a:active {
-          color: #FFCE00;
+          color: blue;
 
      }
 

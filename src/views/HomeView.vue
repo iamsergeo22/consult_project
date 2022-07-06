@@ -19,7 +19,7 @@
 
 
     <section class="body">
-      <div class="container">
+     
         <div class="row">
           <div class="col-lg-6">
             <img src="../assets/macbook-g5a4eeafc4_1920.jpg" class="image img-fluid" alt="">
@@ -37,26 +37,25 @@
 
 
         </div>
-      </div>
+     
 
     </section>
 
 
     <section class="service">
-      <div class="container">
+     
         <h3 style="color:blue">Services We Offer</h3>
         <p>Our commitment is to deliver results in your business through quality products and services.</p>
         <services-view></services-view>
-      </div>
-
+   
     </section>
 
 
     <section class="testimony">
-      <div class="container">
+      
         <h3 style="color:blue">What our Clients Say</h3>
         <testimony-view></testimony-view>
-      </div>
+    
     </section>
 
     <section class="contact">

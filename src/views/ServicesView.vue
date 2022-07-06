@@ -15,7 +15,8 @@
                               <div class="row">
                                    <div class="col-lg-4">
                                         <div class="card" style="width: 25rem;">
-                                             <img src="../assets/coding-g2c250060c_1920.jpg" class="card-img-top" alt="...">
+                                             <img src="../assets/coding-g2c250060c_1920.jpg"
+                                                  class="img-fluid card-img-top" alt="...">
                                              <div class="card-body">
                                                   <h5 class="card-title">Web & App Development</h5>
                                                   <p class="card-text">Some quick example text to build on the card
@@ -28,7 +29,8 @@
 
                                    <div class="col-lg-4">
                                         <div class="card" style="width: 25rem;">
-                                             <img src="../assets/laptop-gc9ce0bcef_640.jpg" class="card-img-top" alt="...">
+                                             <img src="../assets/laptop-gc9ce0bcef_640.jpg"
+                                                  class="img-fluid card-img-top" alt="...">
                                              <div class="card-body">
                                                   <h5 class="card-title">Marketing Automation</h5>
                                                   <p class="card-text">Some quick example text to build on the card
@@ -41,7 +43,8 @@
 
                                    <div class="col-lg-4">
                                         <div class="card" style="width: 25rem;">
-                                             <img src="../assets/workspace-gc61f0955a_640.jpg" class="card-img-top" alt="...">
+                                             <img src="../assets/workspace-gc61f0955a_640.jpg"
+                                                  class="img-fluid card-img-top" alt="...">
                                              <div class="card-body">
                                                   <h5 class="card-title">Product Management</h5>
                                                   <p class="card-text">Some quick example text to build on the card
@@ -63,7 +66,8 @@
 
                                    <div class="col-lg-4">
                                         <div class="card" style="width: 25rem;">
-                                             <img src="../assets/home-office-g58bdf4de7_640.jpg" class="card-img-top" alt="...">
+                                             <img src="../assets/home-office-g58bdf4de7_640.jpg" 
+                                                  class="img-fluid card-img-top" alt="...">
                                              <div class="card-body">
                                                   <h5 class="card-title">Data Science</h5>
                                                   <p class="card-text">Some quick example text to build on the card
@@ -76,7 +80,8 @@
 
                                    <div class="col-lg-4">
                                         <div class="card" style="width: 25rem;">
-                                             <img src="../assets/laptop-g30479cdb3_1920.jpg" class="card-img-top" alt="...">
+                                             <img src="../assets/laptop-g30479cdb3_1920.jpg" class="img-fluid card-img-top"
+                                                  alt="...">
                                              <div class="card-body">
                                                   <h5 class="card-title">Customer Intelligence
                                                   </h5>
@@ -90,7 +95,8 @@
 
                                    <div class="col-lg-4">
                                         <div class="card" style="width: 25rem;">
-                                             <img src="../assets/blogging-gc89c94d93_1920.jpg" class="card-img-top" alt="...">
+                                             <img src="../assets/blogging-gc89c94d93_1920.jpg" class="img-fluid card-img-top"
+                                                  alt="...">
                                              <div class="card-body">
                                                   <h5 class="card-title">Consulting</h5>
                                                   <p class="card-text">Some quick example text to build on the card
