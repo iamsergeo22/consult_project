@@ -24,7 +24,7 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <img src="../assets/macbook-g5a4eeafc4_1920.jpg" class="image img-fluid" alt="">
+          <img src="../assets/work.jpg" class="image img-fluid" alt="">
         </div>
         <div class="col-lg-6">
           <h3>Who are we</h3>
