@@ -23,6 +23,7 @@
                                    target="blank"></i></a>
                          <a href="https://www.linkedin.com/company/kara-events/about/?viewAsMember=true"
                               target="blank"><i class="fab fa-linkedin"></i></a>
+                         <p>Copyright © Serge 2022 | All Rights Reserved</p>
                     </div>
                </div>
 
@@ -78,7 +79,7 @@
 
      .footer {
           background-color: #92A9BD;
-          padding: 50px;
+          padding: 30px;
      }
 
 

@@ -1,8 +1,10 @@
 <template>
      <div class="header">
-          <h1 class="titre">
-               Our Services
-          </h1>
+          <div class="cover">
+               <h1 class="titre">
+                    Our Services
+               </h1>
+          </div>
      </div>
 
 
@@ -16,6 +18,8 @@
 </script>
 
 <style scoped>
+
+
     
 
      h1 {
@@ -27,15 +31,16 @@
 
 
      .header {
-          height: 50vh;
-          background-image: url("../assets/laptop-g30479cdb3_1920.jpg");
-          background-color: rgba(0, 0, 0, 0.555);
+          height: 45vh;
+          background-image: url("../assets/pexels-asad-photo-maldives-9482122.jpg");
+          background-color: rgb(0, 0, 0);
           background-size: cover;
           background-position: top;
           position: relative;
 
 
      }
+
 
 
      .titre {

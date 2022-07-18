@@ -16,6 +16,7 @@ export default {
 </script>
 
 <style scoped>
+
 h1 {
      font-size: 25px;
      font-weight: bold;
@@ -25,8 +26,8 @@ h1 {
 
 
 .header {
-     height: 50vh;
-     background-image: url("../assets/laptop-g30479cdb3_1920.jpg");
+     height: 45vh;
+     background-image: url("../assets/pexels-asad-photo-maldives-9482122.jpg");
      background-color: rgba(0, 0, 0, 0.555);
      background-size: cover;
      background-position: top;
