@@ -2,16 +2,18 @@
   <div class="home">
     <section class="hero">
       <div class="hero-text container">
-        <h4>Take your business to the next level </h4>
-        <br>
-        <h2>
-          DIGITAL SOLUTIONS TO ENHANCE
-          <br />
-          YOUR JOURNEY
+        <div class="cover">
+          <h4>Take your business to the next level </h4>
           <br>
-          <button href="#contact" class="btn btn-primary btn-aminated">Contact Us</button>
-          <!-- <button onclick="window.print()">Print this page</button> -->
-        </h2>
+          <h2>
+            DIGITAL SOLUTIONS TO ENHANCE
+            <br />
+            YOUR JOURNEY
+            <br>
+            <button href="#contact" class="btn btn-primary btn-aminated">Contact Us</button>
+            <!-- <button onclick="window.print()">Print this page</button> -->
+          </h2>
+        </div>
       </div>
 
     </section>
@@ -19,47 +21,51 @@
 
 
     <section class="body">
-     
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="../assets/macbook-g5a4eeafc4_1920.jpg" class="image img-fluid" alt="">
-          </div>
-          <div class="col-lg-6">
-            <h3 style="color:blue">Who are we</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum autem officiis hic laudantium at sint
-              explicabo sunt eaque nesciunt similique nihil sit est modi dolorem aperiam neque, temporibus ipsam!
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam voluptatum consequatur eum iusto
-              voluptates dolor delectus est optio quis totam repellat odit architecto a animi numquam, sequi, quas,
-              deserunt nobis.</p>
-          </div>
 
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="../assets/macbook-g5a4eeafc4_1920.jpg" class="image img-fluid" alt="">
+        </div>
+        <div class="col-lg-6">
+          <h3>Who are we</h3>
+          <p>
+            Amilton & BrewS Ltd is an innovative line of business & service provision focused on the development of
+            engineering projects, business consultancy, and commerce
+          </p>
+
+          <p>
+            Founded in 2021, Amilton & BrewS focuses in helping businesses achieving their corporate goals successfully
+            by providing services, and products while assisting ambitious business leaders innovate.
+
+          </p>
 
         </div>
-     
+
+
+      </div>
+
 
     </section>
 
 
     <section class="service">
-     
-        <h3 style="color:blue">Services We Offer</h3>
-        <p>Our commitment is to deliver results in your business through quality products and services.</p>
-        <services-view></services-view>
-   
+
+      <h3>Services We Offer</h3>
+      <p>Our commitment is to deliver results in your business through quality products and services.</p>
+      <services-view></services-view>
+
     </section>
 
 
     <section class="testimony">
-      
-        <h3 style="color:blue">What our Clients Say</h3>
-        <testimony-view></testimony-view>
-    
+
+      <h3>What our Clients Say</h3>
+      <testimony-view></testimony-view>
+
     </section>
 
     <section class="contact">
-      <h3 style="color:blue">Contact Us</h3>
+      <h3>Contact Us</h3>
       <contact-view></contact-view>
     </section>
   </div>
@@ -135,19 +141,21 @@
   h3 {
     font-size: 45px;
     font-weight: bold;
+    color: #5fc2e8;
   }
 
   p {
-    font-size: 20px;
+    font-size: 25px;
   }
 
 
   .hero {
-    background-image: url("../assets/laptop-g30479cdb3_1920.jpg");
+    background-image: url("../assets/pexels-asad-photo-maldives-9482122.jpg");
+    background-size: cover;
     //background-attachment: fixed;
     position: relative;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.886);
     height: 95vh;
 
     img {
@@ -156,12 +164,21 @@
       width: 100%;
     }
 
+    .cover {
+      background-color: rgba(0, 0, 0, 0.61);
+      padding: 30px;
+      margin: 10px;
+      text-align: center;
+      border-radius: 8px;
+
+    }
+
     .hero-text {
       height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      color: blue;
+      color: #5fc2e8;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold;
 

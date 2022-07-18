@@ -38,7 +38,7 @@
                </div>
 
                <div class="col-lg-4">
-                    <h2><b>Products</b></h2>
+                    <h2><b>Services</b></h2>
                     <ul>
                          <li><a href="/evala">Evala</a></li>
                          <li><a href="/akpema">Akpema</a></li>
@@ -67,6 +67,8 @@
 
 <style scoped>
 
+
+
      
 
 
@@ -75,7 +77,7 @@
      }
 
      .footer {
-          background-color: #004e92;
+          background-color: #92A9BD;
           padding: 50px;
      }
 
@@ -90,7 +92,7 @@
           font-size: 20px;
 
      }
-
+     
 
      a:hover,
      a:active {

@@ -9,16 +9,16 @@
           <router-link class="link" :to="{ name: 'Home' }">Home</router-link>
         </li>
         <li>
-          <router-link class="link" :to="{ name: '' }">Services</router-link>
+          <router-link class="link" :to="{ name: 'Service' }">Services</router-link>
         </li>
         <li>
-          <router-link class="link" :to="{ name: '' }">Products</router-link>
+          <router-link class="link" :to="{ name: 'Product' }">Products</router-link>
         </li>
         <li>
-          <router-link class="link" :to="{ name: '' }">Team</router-link>
+          <router-link class="link" :to="{ name: 'Team' }">Team</router-link>
         </li>
         <li>
-          <router-link class="link" :to="{ name: '' }">Blog</router-link>
+          <router-link class="link" :to="{ name: 'Blog' }">Blog</router-link>
         </li>
         <li>
           <button href="" class="btn btn-primary btn-aminated">Contact Us</button>

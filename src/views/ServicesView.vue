@@ -142,13 +142,14 @@ export default {
 
 
 
+
 .card-body {
      text-align: left;
      font-family: 'Josefin Sans', sans-serif;
 }
 
 .card-title {
-     color: blue;
+     color: #5fc2e8;
      font-weight: bold;
      font-family: 'Josefin Sans', sans-serif;
      font-size: 25px;
