@@ -131,20 +131,7 @@
           text-align: justify;
      }
 
-          hr:nth-child(2) {
-               max-width: 365px;
-               margin-bottom: 16px;
-               text-align: center;
-          }
-     
-          hr:nth-child(4) {
-               height: 6px;
-               background-color: #fff;
-               border: none;
-               max-width: 85px;
-               margin-top: 16px;
-               text-align: center;
-          }
+          
 
 
 
@@ -161,7 +148,7 @@
 
      .service {
           padding: 50px;
-          text-align: center;
+         
      }
 
      .row, .col-lg-4 {
@@ -194,7 +181,7 @@
           font-size: 25px;
           font-weight: bold;
           font-family: 'Jost', sans-serif;
-          text-align: center;
+          
      }
 
 

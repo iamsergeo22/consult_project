@@ -31,20 +31,36 @@
                <div class="col-lg-4">
                     <h2><b>Directs Links</b></h2>
                     <ul>
-                         <li><a href="/">Home</a></li>
-                         <li><a href="/Gallery">Services</a></li>
-                         <li><a href="/events">Blog</a></li>
-                         <li><a href="/events">Contact us</a></li>
+                         <li>
+                              <router-link to="/">Home</router-link>
+                         </li>
+                         <li>
+                              <router-link to="/service">Services</router-link>
+                         </li>
+                         <li>
+                              <router-link to="/blog">Blog</router-link>
+                         </li>
+                         <li>
+                              <router-link to="/contact">Contact us</router-link>
+                         </li>
                     </ul>
                </div>
 
                <div class="col-lg-4">
                     <h2><b>Services</b></h2>
                     <ul>
-                         <li><a href="/evala">Evala</a></li>
-                         <li><a href="/akpema">Akpema</a></li>
-                         <li><a href="/habye">Habyé</a></li>
-                         <li><a href="/kondona">Kondona</a></li>
+                         <li>
+                              <router-link to="/service">POS</router-link>
+                         </li>
+                         <li>
+                              <router-link to="/service">Web & Mobile Application</router-link>
+                         </li>
+                         <li>
+                              <router-link to="/blog">Consulting</router-link>
+                         </li>
+                         <li>
+                              <router-link to="/contact">Digital Marketing</router-link>
+                         </li>
                     </ul>
                </div>
 
