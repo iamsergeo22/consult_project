@@ -7,6 +7,51 @@
           </div>
      </div>
 
+     <div class="service">
+          <div class="row">
+               <div class="col-lg-4">
+                    <div class="card" style="width: 28rem;">
+                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top" alt="...">
+                         <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the
+                                   bulk of the card's content.</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-lg-4">
+                    <div class="card" style="width: 28rem;">
+                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top" alt="...">
+                         <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the
+                                   bulk of the card's content.</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-lg-4">
+                    <div class="card" style="width: 28rem;">
+                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top" alt="...">
+                         <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the
+                                   bulk of the card's content.</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-lg-4">
+                    <div class="card" style="width: 28rem;">
+                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top" alt="...">
+                         <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the
+                                   bulk of the card's content.</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
 
 </template>
 
@@ -20,6 +65,40 @@
 <style scoped>
 
 
+
+
+
+
+
+    .service {
+         padding: 20px;
+    }
+
+    .row {
+         padding: 10px;
+    }
+
+    .col-lg-4 {
+         padding: 15px;
+    }
+
+    .card {
+         border-radius: 15px;
+         box-shadow: 0 5px 10px #0005;
+    }
+
+    .card-text {
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 15px;
+         
+    }
+
+    .card-title {
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 25px;
+         font-weight: bold;
+         color: #5fc2e8;
+    }
     
 
      h1 {
