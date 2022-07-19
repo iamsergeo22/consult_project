@@ -38,14 +38,8 @@
           </div>
 
      </div>
-</template>
-
-<script>
-     export default {
-
-     }
-</script>
-
+</template> 
+   
 <style scoped>
      p {
           font-family: 'Josefin Sans', sans-serif;

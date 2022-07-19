@@ -51,55 +51,99 @@
                </div>
           </div>
      </div>
+     <section class="testimony">
+
+          <h3>What our Clients Say</h3>
+          <testimony-view></testimony-view>
+
+     </section>
+
+     <section class="contact">
+          <h3>Contact Us</h3>
+          <contact-view></contact-view>
+     </section>
 
 
 </template>
 
 <script>
+     import TestimonyView from './TestimonyView.vue'
+     import ContactView from './ContactView.vue'
      export default {
+          components: {
+               TestimonyView,
+               ContactView
+          }
 
 
      }
 </script>
 
-<style scoped>
+
+<style lang="scss" scoped>
+     .contact {
+          padding: 20px;
+
+          h3 {
+               text-align: center;
+          }
+     }
+
+     h3 {
+          font-size: 45px;
+          font-weight: bold;
+          color: #5fc2e8;
+     }
+
+     h3,
+     p {
+          font-family: 'Josefin Sans', sans-serif;
+          text-align: justify;
+     }
 
 
 
+     .testimony {
+          margin: 20px;
+          padding: 50px;
+          background-color: white;
+
+          h3 {
+               text-align: center;
+          }
+     }
 
 
+     .service {
+          padding: 20px;
+     }
 
+     .row {
+          padding: 10px;
+     }
 
-    .service {
-         padding: 20px;
-    }
+     .col-lg-4 {
+          padding: 15px;
+     }
 
-    .row {
-         padding: 10px;
-    }
+     .card {
+          border-radius: 15px;
+          box-shadow: 0 5px 10px #0005;
+     }
 
-    .col-lg-4 {
-         padding: 15px;
-    }
+     .card-text {
+          font-family: 'Josefin Sans', sans-serif;
+          font-size: 15px;
 
-    .card {
-         border-radius: 15px;
-         box-shadow: 0 5px 10px #0005;
-    }
+     }
 
-    .card-text {
-         font-family: 'Josefin Sans', sans-serif;
-         font-size: 15px;
-         
-    }
+     .card-title {
+          font-family: 'Josefin Sans', sans-serif;
+          font-size: 25px;
+          font-weight: bold;
+          color: #5fc2e8;
+     }
 
-    .card-title {
-         font-family: 'Josefin Sans', sans-serif;
-         font-size: 25px;
-         font-weight: bold;
-         color: #5fc2e8;
-    }
-    
 
      h1 {
           font-size: 25px;
