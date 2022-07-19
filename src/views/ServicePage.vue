@@ -8,7 +8,31 @@
      </div>
 
      <div class="service">
+          <h3>What we Offer</h3>
+          <hr>
           <div class="row">
+               <div class="col-lg-4">
+                    <div class="card" style="width: 25rem;">
+                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
+                              alt="...">
+                         <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the
+                                   bulk of the card's content.</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-lg-4">
+                    <div class="card" style="width: 25rem;">
+                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
+                              alt="...">
+                         <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the
+                                   bulk of the card's content.</p>
+                         </div>
+                    </div>
+               </div>
                <div class="col-lg-4">
                     <div class="card" style="width: 25rem;">
                          <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
@@ -85,6 +109,8 @@
 
 
 <style lang="scss" scoped>
+
+
      .contact {
           padding: 20px;
 
@@ -105,6 +131,21 @@
           text-align: justify;
      }
 
+          hr:nth-child(2) {
+               max-width: 365px;
+               margin-bottom: 16px;
+               text-align: center;
+          }
+     
+          hr:nth-child(4) {
+               height: 6px;
+               background-color: #fff;
+               border: none;
+               max-width: 85px;
+               margin-top: 16px;
+               text-align: center;
+          }
+
 
 
      .testimony {
@@ -119,21 +160,20 @@
 
 
      .service {
-          padding: 20px;
+          padding: 50px;
+          text-align: center;
      }
 
-     .row {
+     .row, .col-lg-4 {
           padding: 10px;
-     }
-
-     .col-lg-4 {
-          padding: 10px;
+          
      }
 
      .card {
           border-radius: 15px;
           box-shadow: 0 5px 10px #0005;
           max-width: 100%;
+         
      }
 
      .card-text {

@@ -96,14 +96,12 @@
 
      .banner-container .banner {
           border-radius: 10px;
-          margin: 50px;
-         
+          margin: 20px;
           align-items: center;
           justify-content: center;
-        
           box-shadow: 0 10px 20px #0005;
-          overflow: hidden;
-          padding: 30px;
+         
+         
      }
 
 
