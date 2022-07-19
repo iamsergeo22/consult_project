@@ -64,6 +64,12 @@
 
     </section>
 
+    <section class="paternship">
+      <h3>Customers Served
+      </h3>
+
+    </section>
+
     <section class="contact">
       <h3>Contact Us</h3>
       <contact-view></contact-view>
@@ -105,6 +111,16 @@
     padding: 70px;
     background-color: white;
 
+  }
+
+  .paternship {
+    margin: 20px;
+    padding: 70px;
+    background-color: white;
+
+    h3 {
+        text-align: center;
+      }
   }
 
   .contact {
@@ -166,8 +182,8 @@
 
     .cover {
       background-color: rgba(0, 0, 0, 0.61);
-      padding: 30px;
-      margin: 10px;
+      padding: 50px;
+      margin: 20px;
       text-align: center;
       border-radius: 8px;
 

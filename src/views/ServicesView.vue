@@ -47,23 +47,19 @@
 </script>
 
 <style scoped>
-
-
-    
-
      p {
           font-family: 'Josefin Sans', sans-serif;
           font-size: 20px;
      }
 
-           .image {
-                border-radius: 50%;
-                width: 400px;
-                border: 3px solid #fff;
-     
-           }
+     .image {
+          border-radius: 50%;
+          width: 400px;
+          border: 3px solid #fff;
 
-     
+     }
+
+
 
      .row {
           padding: 10px;

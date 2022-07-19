@@ -12,7 +12,7 @@
           <router-link class="link" :to="{ name: 'Service' }">Services</router-link>
         </li>
         <li>
-          <router-link class="link" :to="{ name: 'Product' }">Products</router-link>
+          <router-link class="link" :to="{ name: 'Client' }">Clients</router-link>
         </li>
         <li>
           <router-link class="link" :to="{ name: 'Team' }">Team</router-link>
@@ -38,7 +38,7 @@
             <router-link class="link" :to="{ name: 'Service' }">Services</router-link>
           </li>
           <li>
-            <router-link class="link" :to="{ name: 'Product' }">Products</router-link>
+            <router-link class="link" :to="{ name: 'Client' }">Clients</router-link>
           </li>
           <li>
             <router-link class="link" :to="{ name: 'Team' }">Team</router-link>
