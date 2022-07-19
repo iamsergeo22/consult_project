@@ -10,8 +10,9 @@
      <div class="service">
           <div class="row">
                <div class="col-lg-4">
-                    <div class="card" style="width: 28rem;">
-                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top" alt="...">
+                    <div class="card" style="width: 25rem;">
+                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
+                              alt="...">
                          <div class="card-body">
                               <h5 class="card-title">Card title</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the
@@ -20,8 +21,9 @@
                     </div>
                </div>
                <div class="col-lg-4">
-                    <div class="card" style="width: 28rem;">
-                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top" alt="...">
+                    <div class="card" style="width: 25rem;">
+                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
+                              alt="...">
                          <div class="card-body">
                               <h5 class="card-title">Card title</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the
@@ -30,8 +32,9 @@
                     </div>
                </div>
                <div class="col-lg-4">
-                    <div class="card" style="width: 28rem;">
-                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top" alt="...">
+                    <div class="card" style="width: 25rem;">
+                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
+                              alt="...">
                          <div class="card-body">
                               <h5 class="card-title">Card title</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the
@@ -40,8 +43,9 @@
                     </div>
                </div>
                <div class="col-lg-4">
-                    <div class="card" style="width: 28rem;">
-                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top" alt="...">
+                    <div class="card" style="width: 25rem;">
+                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
+                              alt="...">
                          <div class="card-body">
                               <h5 class="card-title">Card title</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the
@@ -123,12 +127,13 @@
      }
 
      .col-lg-4 {
-          padding: 15px;
+          padding: 10px;
      }
 
      .card {
           border-radius: 15px;
           box-shadow: 0 5px 10px #0005;
+          max-width: 100%;
      }
 
      .card-text {
