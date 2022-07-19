@@ -208,11 +208,11 @@
       }
 
       h2 {
-        font-size: 35px;
+        font-size: 20px;
         font-family: 'Josefin Sans', sans-serif;
 
         @media (min-width: 550px) {
-          font-size: 40px;
+          font-size: 30px;
           font-weight: bold;
         }
       }

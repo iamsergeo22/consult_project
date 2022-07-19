@@ -171,12 +171,15 @@
      }
 
      .body {
-          margin: 10px;
           padding: 50px;
      }
 
+     .col-lg-6 {
+          padding: 10px;
+     }
+
      .row {
-          padding: 100px;
+          padding: 10px;
           justify-content: space-between;
      }
 
