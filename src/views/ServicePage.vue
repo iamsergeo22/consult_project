@@ -111,6 +111,7 @@
 <style lang="scss" scoped>
 
 
+
      .contact {
           padding: 20px;
 
@@ -187,7 +188,7 @@
 
      .header {
           height: 45vh;
-          background-image: url("../assets/pexels-asad-photo-maldives-9482122.jpg");
+          background-image: url("../assets/banner.png");
           background-color: rgb(0, 0, 0);
           background-size: cover;
           background-position: top;
