@@ -19,22 +19,6 @@
                               molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
                               quo
                               rem? Ratione optio explicabo facilis!</p>
-                         <button type="button" class="btn btn-primary">Visit the Site</button>
-                    </div>
-               </div>
-
-
-          </div>
-
-          <div class="row">
-               <div class="col-lg-6">
-                    <img class="image img-fluid" src="../assets/pexels-asad-photo-maldives-9482122.jpg" alt="">
-               </div>
-               <div class="col-lg-6">
-                    <div class="description">
-                         <h2>The What, How, and Why of B2B Martech
-                         </h2>
-                         <span><strong>March 06, 2022</strong></span>
                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit inventore at porro fugiat,
                               molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
                               quo
@@ -55,6 +39,34 @@
                          <h2>The What, How, and Why of B2B Martech
                          </h2>
                          <span><strong>March 06, 2022</strong></span>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit inventore at porro fugiat,
+                              molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
+                              quo
+                              rem? Ratione optio explicabo facilis!</p>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit inventore at porro fugiat,
+                              molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
+                              quo
+                              rem? Ratione optio explicabo facilis!</p>
+                         <button type="button" class="btn btn-primary">Visit the Site</button>
+                    </div>
+               </div>
+
+
+          </div>
+
+          <div class="row">
+               <div class="col-lg-6">
+                    <img class="image img-fluid" src="../assets/pexels-asad-photo-maldives-9482122.jpg" alt="">
+               </div>
+               <div class="col-lg-6">
+                    <div class="description">
+                         <h2>The What, How, and Why of B2B Martech
+                         </h2>
+                         <span><strong>March 06, 2022</strong></span>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit inventore at porro fugiat,
+                              molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
+                              quo
+                              rem? Ratione optio explicabo facilis!</p>
                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit inventore at porro fugiat,
                               molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
                               quo

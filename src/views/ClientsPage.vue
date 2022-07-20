@@ -14,6 +14,10 @@
                               molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
                               quo
                               rem? Ratione optio explicabo facilis!</p>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit inventore at porro fugiat,
+                              molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
+                              quo
+                              rem? Ratione optio explicabo facilis!</p>
                          <span><strong>Key Services: Web Development & Marketing Strategy</strong></span>
                          <br>
                          <button type="button" class="btn btn-primary">Visit the Site</button>
@@ -37,6 +41,10 @@
                               molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
                               quo
                               rem? Ratione optio explicabo facilis!</p>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit inventore at porro fugiat,
+                              molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
+                              quo
+                              rem? Ratione optio explicabo facilis!</p>
                          <span><strong>Key Services: Web Development & Marketing Strategy</strong></span>
                          <br>
                          <button type="button" class="btn btn-primary">Visit the Site</button>
@@ -52,6 +60,10 @@
                <div class="col-lg-6">
                     <div style="margin-top: 20px">
                          <h2>INTUIT QUICKBOOKS</h2>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit inventore at porro fugiat,
+                              molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
+                              quo
+                              rem? Ratione optio explicabo facilis!</p>
                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit inventore at porro fugiat,
                               molestias esse repudiandae. Error voluptas ad quaerat repellat iusto. Iure reprehenderit
                               quo
