@@ -148,7 +148,7 @@
 
 
      .service {
-          padding: 50px;
+          padding: 10px;
          
      }
 
