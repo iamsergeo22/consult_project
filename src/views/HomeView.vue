@@ -103,19 +103,19 @@
 <style lang="scss" scoped>
   .body {
     margin: 10px;
-    padding: 10px;
+    padding: 50px;
   }
 
   .service {
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 50px;
     background-color: white;
 
   }
 
   .paternship {
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 50px;
     background-color: white;
 
     h3 {
@@ -134,8 +134,8 @@
 
 
   .testimony {
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 50px;
     background-color: white;
 
     h3 {
