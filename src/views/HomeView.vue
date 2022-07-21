@@ -22,26 +22,29 @@
 
     <section class="body container">
 
-      <div class="row">
-        <div class="col-lg-6">
-          <img src="../assets/work.jpg" class="image img-fluid" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="../assets/work.jpg" class="image img-fluid" alt="">
+          </div>
+          <div class="col-lg-6">
+            <h3>Who are we</h3>
+            <p>
+              Amilton & BrewS Ltd is an innovative line of business & service provision focused on the development of
+              engineering projects, business consultancy, and commerce
+            </p>
+
+            <p>
+              Founded in 2021, Amilton & BrewS focuses in helping businesses achieving their corporate goals
+              successfully
+              by providing services, and products while assisting ambitious business leaders innovate.
+
+            </p>
+
+          </div>
+
+
         </div>
-        <div class="col-lg-6">
-          <h3>Who are we</h3>
-          <p>
-            Amilton & BrewS Ltd is an innovative line of business & service provision focused on the development of
-            engineering projects, business consultancy, and commerce
-          </p>
-
-          <p>
-            Founded in 2021, Amilton & BrewS focuses in helping businesses achieving their corporate goals successfully
-            by providing services, and products while assisting ambitious business leaders innovate.
-
-          </p>
-
-        </div>
-
-
       </div>
 
 
@@ -161,7 +164,7 @@
   }
 
   p {
-    font-size: 25px;
+    font-size: 20px;
   }
 
 
