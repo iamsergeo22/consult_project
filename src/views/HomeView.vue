@@ -20,7 +20,7 @@
 
 
 
-    <section class="body">
+    <section class="body container">
 
       <div class="row">
         <div class="col-lg-6">
@@ -102,20 +102,20 @@
 
 <style lang="scss" scoped>
   .body {
-    margin: 20px;
-    padding: 50px;
+    margin: 10px;
+    padding: 10px;
   }
 
   .service {
-    margin: 20px;
-    padding: 70px;
+    margin: 10px;
+    padding: 10px;
     background-color: white;
 
   }
 
   .paternship {
-    margin: 20px;
-    padding: 70px;
+    margin: 10px;
+    padding: 10px;
     background-color: white;
 
     h3 {
@@ -134,8 +134,8 @@
 
 
   .testimony {
-    margin: 20px;
-    padding: 50px;
+    margin: 10px;
+    padding: 10px;
     background-color: white;
 
     h3 {
@@ -144,7 +144,7 @@
   }
 
   .image {
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 5px 10px #0005;
   }
 

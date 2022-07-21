@@ -112,6 +112,7 @@
 <style lang="scss" scoped>
 
 
+
      .row {
           padding: 20px;
           
@@ -211,6 +212,20 @@
           font-size: 50px;
           font-weight: bold;
      }
+
+          img {
+     
+               transition: transform .5s;
+     
+          }
+     
+          img:hover {
+               -ms-transform: scale(1.1);
+               /* IE 9 */
+               -webkit-transform: scale(1.1);
+               /* Safari 3-8 */
+               transform: scale(1.1);
+          }
 
 
 

@@ -7,7 +7,7 @@
           </div>
      </div>
 
-     <div class="service">
+     <div class="service container">
           <h3>What we Offer</h3>
           <hr>
           <div class="row">
@@ -197,7 +197,7 @@
 
      }
 
-
+      
 
      .titre {
           position: absolute;

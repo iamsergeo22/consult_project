@@ -102,8 +102,6 @@
 </script>
 
 <style lang="scss" scoped>
-
-
      .contact {
           padding: 20px;
 
@@ -157,6 +155,20 @@
           font-weight: bold;
           font-family: 'Jost', sans-serif;
           text-align: center;
+     }
+
+     img {
+
+          transition: transform .5s;
+
+     }
+
+     img:hover {
+          -ms-transform: scale(1.2);
+          /* IE 9 */
+          -webkit-transform: scale(1.2);
+          /* Safari 3-8 */
+          transform: scale(1.2);
      }
 
      .team {
