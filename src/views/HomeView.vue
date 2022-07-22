@@ -29,6 +29,7 @@
           </div>
           <div class="col-lg-6">
             <h3>Who are we</h3>
+            <hr style="width: 35%; border: 5px solid #5fc2e8; border-radius: 5px; background-color: #5fc2e8;">
             <p>
               Amilton & BrewS Ltd is an innovative line of business & service provision focused on the development of
               engineering projects, business consultancy, and commerce
@@ -54,6 +55,7 @@
     <section class="service">
 
       <h3>Services We Offer</h3>
+      <hr style="width: 15%; border: 5px solid #5fc2e8; border-radius: 5px; background-color: #5fc2e8;">
       <p>Our commitment is to deliver results in your business through quality products and services.</p>
       <services-view></services-view>
 
@@ -122,8 +124,8 @@
     background-color: white;
 
     h3 {
-        text-align: center;
-      }
+      text-align: center;
+    }
   }
 
   .contact {
@@ -220,20 +222,11 @@
         }
       }
 
-      hr:nth-child(2) {
-        max-width: 365px;
-        margin-bottom: 16px;
-        text-align: center;
-      }
 
-      hr:nth-child(4) {
-        height: 6px;
-        background-color: #fff;
-        border: none;
-        max-width: 85px;
-        margin-top: 16px;
-        text-align: center;
-      }
+
+
     }
+
+   
   }
 </style>
