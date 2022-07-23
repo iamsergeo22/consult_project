@@ -20,9 +20,9 @@
 
 
 
-    <section class="body container">
+    <section class="body">
 
-      <div class="container">
+      <div class="">
         <div class="row">
           <div class="col-lg-6">
             <img src="../assets/work.jpg" class="image img-fluid" alt="">
