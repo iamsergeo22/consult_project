@@ -31,7 +31,7 @@
             <h3>Who are we</h3>
             <hr style="width: 35%; border: 5px solid #5fc2e8; border-radius: 5px; background-color: #5fc2e8;">
             <p>
-              Amilton & BrewS Ltd is an innovative line of business & service provision focused on the development of
+              Amilton & BrewS is an innovative line of business & service provision focused on the development of
               engineering projects, business consultancy, and commerce
             </p>
 
