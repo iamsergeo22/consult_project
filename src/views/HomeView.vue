@@ -70,8 +70,14 @@
     </section>
 
     <section class="paternship">
-      <h3>Customers Served
-      </h3>
+      <h3>Customers Served</h3>
+
+      <div class="container">
+        <div class="logo">
+          <img src="../assets/suninvest.png" class="image" width="20%" alt="">
+          <img src="../assets/fesa.jpg" class="image" width="20%" alt="">
+        </div>
+      </div>
 
     </section>
 
@@ -110,6 +116,12 @@
     margin: 10px;
     padding: 50px;
   }
+  .logo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+  }
 
   .service {
     margin: 20px;
@@ -121,7 +133,7 @@
   .paternship {
     margin: 20px;
     padding: 50px;
-    background-color: white;
+    background-color: #CFD2CF;
 
     h3 {
       text-align: center;
