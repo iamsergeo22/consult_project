@@ -10,7 +10,7 @@
             <br />
             YOUR JOURNEY
             <br>
-            <button href="#contact" class="btn btn-primary btn-aminated">Contact Us</button>
+            <router-link to="/contact" class="btn btn-primary btn-aminated">Contact Us</router-link>
             <!-- <button onclick="window.print()">Print this page</button> -->
           </h2>
         </div>

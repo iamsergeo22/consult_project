@@ -1,12 +1,15 @@
-import { createRouter, createWebHistory } from "vue-router";
+import {
+  createRouter,
+  createWebHistory
+} from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import ServicePage from "../views/ServicePage.vue";
 import ClientsPage from '../views/ClientsPage.vue';
 import TeamPage from '../views/TeamPage.vue';
 import BlogPage from '../views/BlogPage.vue';
+import ContactPage from "@/views/ContactPage.vue";
 
-const routes = [
-  {
+const routes = [{
     path: "/",
     name: "Home",
     component: HomeView,
@@ -28,10 +31,15 @@ const routes = [
     name: "Team",
     component: TeamPage,
   },
-    {
+  {
     path: "/blog",
     name: "Blog",
     component: BlogPage,
+  },
+  {
+    path: "/contact",
+    name: "Contact",
+    component: ContactPage,
   },
 ];
 

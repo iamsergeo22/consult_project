@@ -43,18 +43,20 @@
                          <div class="banner">
                               <img src="../../assets/pexels-asad-photo-maldives-9470522.jpg"
                                    class="d-block w-100 img-fluid" alt="...">
-                         </div>
-
-
-                         <div class="banner">
-                              <img class="d-block w-100 img-fluid" src="../../assets/pexels-sora-shimazaki-5673488.jpg"
-                                   alt="">
+                              <p>
+                                   Commercialization of PSO and other banking hardwares
+                              </p>
 
                          </div>
+
 
                          <div class="banner">
                               <img src="../../assets/pexels-asad-photo-maldives-9470522.jpg"
                                    class="d-block w-100 img-fluid" alt="...">
+                              <p>
+                                   Commercialization of PSO and other banking hardwares
+                              </p>
+
                          </div>
 
 
@@ -83,6 +85,13 @@ export default {
 </script>
 
 <style scoped>
+
+ p {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 25px;
+      padding: 10px;
+      font-weight: bold;
+ }
 .banner-container {
      display: flex;
      align-items: center;

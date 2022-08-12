@@ -21,7 +21,7 @@
           <router-link class="link" :to="{ name: 'Blog' }">Blog</router-link>
         </li>
         <li>
-          <button href="" class="btn btn-primary btn-aminated">Contact Us</button>
+          <router-link to="/contact" class="btn btn-primary btn-aminated">Contact Us</router-link>
         </li>
       </ul>
 
@@ -47,7 +47,7 @@
             <router-link class="link" :to="{ name: 'Blog' }">Blog</router-link>
           </li>
           <li>
-            <button href="" class="btn btn-primary btn-aminated">Contact Us</button>
+            <router-link to="/contact" class="btn btn-primary btn-aminated">Contact Us</router-link>
           </li>
         </ul>
       </transition>
