@@ -1,102 +1,159 @@
 <template>
 
-     <div class="login">
-          <div class="container">
-               <div class="form-signin">
+     <div class="about">
+          <div class="login">
+               <div class="container">
+                    <div class="form-signin">
 
-                    <form>
-                         <div class="mb-3">
-                              <label for="email" class="form-label">Full Name *</label>
-                              <input type="text" class="form-control" id="name">
+
+                         <div class="row">
+                              <div class="col-lg-6">
+                                   <form @submit="register" method="post">
+                                        <div class="mb-3">
+                                             <label for="name" class="form-label">Nom*</label>
+                                             <input type="text" class="form-control" id="name" v-model="register.nom"
+                                                  required>
+                                        </div>
+                                        <div class="mb-3">
+                                             <label for="name" class="form-label">Prenom*</label>
+                                             <input type="text" class="form-control" id="name" v-model="register.prenom"
+                                                  required>
+                                        </div>
+                                        <div class="mb-3">
+                                             <label for="email" class="form-label">Email*</label>
+                                             <input type="email" class="form-control" id="email"
+                                                  v-model="register.email" required>
+                                        </div>
+                                        <div class="mb-3">
+                                             <label for="number" class="form-label">Telephone*</label>
+                                             <input type="text" class="form-control" id="number"
+                                                  v-model="register.telephone" required>
+                                        </div>
+                                        <div class="mb-3">
+                                             <label for="" class="form-label">Message</label>
+                                             <textarea name="message" id="message" class="form-control"
+                                                  placeholder="Le message" rows="5" required=""></textarea>
+                                        </div>
+
+
+                                        <button type="submit" class="btn btn-warnings w-100">
+
+                                             <span v-if="loadings.register">Chargement.....</span>
+                                             <span v-if="!loadings.register">Envoyer</span>
+
+                                        </button>
+                                   </form>
+                              </div>
+
+                              <div class="col-lg-6">
+                                   <img class="img-fluid" src="../assets/pexels-asad-photo-maldives-9470522.jpg" alt="">
+                              </div>
                          </div>
-                         <div class="mb-3">
-                              <label for="password" class="form-label">Email *</label>
-                              <input type="email" class="form-control" id="email">
-                         </div>
+                    </div>
 
-                         <div class="mb-3">
-                              <label for="password" class="form-label">Phone Number *</label>
-                              <input type="number" class="form-control" id="number">
-                         </div>
-                         <div class="mb-3">
-                              <label for="email" class="form-label">Company Name *</label>
-                              <input type="text" class="form-control" id="name">
-                         </div>
-
-                         <div class="mb-3">
-                              <label for="" class="form-label">Message</label>
-                              <textarea name="message" id="message" class="form-control" placeholder="Le message"
-                                   rows="5" required=""></textarea>
-                         </div>
-
-
-
-                         <button type="submit" class="btn btn-primary w-100">Submit</button>
-
-
-                    </form>
                </div>
           </div>
+
      </div>
+
+
 
 </template>
 
 <script>
-
-
-export default {
-     name: "ContactView",
-     
-  
- /*     methods: {
-          login() {
-               axios.post('api/login', this.form).then((response) => {
-                    localStorage.setItem('token', response.data.access_token)
-                    this.$router.push('/user-profile')
-               }).catch(error => {
-                    console.log(error)
-               })
-          },
-
-          initForm() {
-               return {
-                    email: null,
-                    password: null
+     export default {
+     layout: "karaevents",
+     data() {
+          return {
+               loadings: {
+                    register: false,
+               },
+               register: {
+                    nom: '',
+                    prenom: '',
+                    email: '',
+                    telephone: '',
+                    password: ''
                }
           }
-     } */
+     },
+     methods: {
+
+     }
+
 }
 </script>
 
-<style scoped>
+
+
+<style lang="scss" scoped>
 
 
 
-.form-signin {
-     width: 100%;
-     max-width: 900px;
-     height: 100%;
-     padding: 15px;
-     margin: 5rem auto 0;
-     font-family: 'Josefin Sans', sans-serif;
-}
-
-label {
-     font-family: 'Josefin Sans', sans-serif;
-     font-weight: bold;
-}
-
-
-
-form {
-     max-width: 100%;
-     border-radius: 12px;
-     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.273);
-     padding: 2rem;
-     background-color: #ffffff;
-     font-family: 'Jost';
-
-}
+     .flex {
+          display: flex;
+               justify-content: space-between;
+          }
+          
+          img {
+               width: 100%;
+               height: 100%;
+          }
+          
+          .login {
+               padding: 15px;
+          }
+          
+          .form-signin {
+               width: 100%;
+               height: 100%;
+               padding: 25px;
+               font-family: 'Jost', sans-serif;
+               border-radius: 5px;
+               box-shadow: 0 5px 10px #0005;
+               background-color: #fff;
+          }
+          
+          label {
+               font-family: 'Jost', sans-serif;
+               font-weight: bold;
+          }
+          
+          .btn-warnings {
+               background-color: #5fc2e8;
+               color: #fff;
+          
+          
+          }
+          
+          .btn-warnings:hover {
+               background-color: #5fc2e8;
+               color: #fff;
+          
+          
+          }
+          
+          
+          
+          form {
+               max-width: 100%;
+               padding: 25px;
+               background-color: #fff;
+               font-family: 'Jost', sans-serif;
+          
+          }
+          
+          
+          a {
+               text-decoration: none;
+               font-size: 15px;
+          }
+          
+          p {
+               text-align: justify;
+               font-family: 'Jost', sans-serif;
+               font-size: 20px;
+          }
 
 .tit {
      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.273);

@@ -58,6 +58,7 @@
       <hr style="width: 15%; border: 5px solid #5fc2e8; border-radius: 5px; background-color: #5fc2e8;">
       <p>Our commitment is to deliver results in your business through quality products and services.</p>
       <services-view></services-view>
+      <CarouselPage></CarouselPage>
 
     </section>
 
@@ -98,7 +99,8 @@
   // @ is an alias to /src
   import ServicesView from './ServicesView.vue';
   import TestimonyView from './TestimonyView.vue'
-  import ContactView from './ContactView.vue'
+import ContactView from './ContactView.vue'
+import CarouselPage from '@/components/partials/CarouselPage.vue';
 
 
   export default {
@@ -106,7 +108,8 @@
     components: {
       ServicesView,
       TestimonyView,
-      ContactView
+      ContactView,
+      CarouselPage
     },
   };
 </script>
