@@ -22,7 +22,7 @@
 
     <section class="body">
 
-      <div class="">
+      <div>
         <div class="row">
           <div class="col-lg-6">
             <img src="../assets/work.jpg" class="image img-fluid" alt="">
@@ -58,7 +58,6 @@
       <hr style="width: 15%; border: 5px solid #5fc2e8; border-radius: 5px; background-color: #5fc2e8;">
       <p>Our commitment is to deliver results in your business through quality products and services.</p>
       <services-view></services-view>
-      <CarouselPage></CarouselPage>
 
     </section>
 
@@ -99,8 +98,8 @@
   // @ is an alias to /src
   import ServicesView from './ServicesView.vue';
   import TestimonyView from './TestimonyView.vue'
-import ContactView from './ContactView.vue'
-import CarouselPage from '@/components/partials/CarouselPage.vue';
+  import ContactView from './ContactView.vue'
+  //import CarouselPage from '@/components/partials/CarouselPage.vue';
 
 
   export default {
@@ -109,7 +108,7 @@ import CarouselPage from '@/components/partials/CarouselPage.vue';
       ServicesView,
       TestimonyView,
       ContactView,
-      CarouselPage
+     // CarouselPage
     },
   };
 </script>
@@ -119,11 +118,12 @@ import CarouselPage from '@/components/partials/CarouselPage.vue';
     margin: 10px;
     padding: 50px;
   }
+
   .logo {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    
+
   }
 
   .service {
@@ -242,6 +242,6 @@ import CarouselPage from '@/components/partials/CarouselPage.vue';
 
     }
 
-   
+
   }
 </style>
