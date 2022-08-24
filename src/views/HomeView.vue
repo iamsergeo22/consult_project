@@ -2,7 +2,7 @@
   <div class="home">
     <section class="hero">
       <div class="hero-text container">
-        <div class="cover">
+        <div class="cover container">
           <h4>Take your business to the next level </h4>
           <br>
           <h2>
@@ -186,14 +186,14 @@
 
 
   .hero {
-    background-image: url("../assets/pexels-asad-photo-maldives-9482122.jpg");
+    background-image: url("../assets/maldives.jpg");
     background-size: cover;
     //background-attachment: fixed;
     position: relative;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.886);
-    height: 95vh;
-
+    height: 100vh;
+  
     img {
       object-fit: cover;
       height: 100%;
@@ -202,11 +202,12 @@
 
     .cover {
       background-color: rgba(0, 0, 0, 0.61);
-      padding: 50px;
-      margin: 20px;
+      padding: 20px;
       text-align: center;
       border-radius: 8px;
+      
 
+      
     }
 
     .hero-text {
