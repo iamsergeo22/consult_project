@@ -1,6 +1,66 @@
 <template>
+  <div class="slide">
+    <div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="../assets/business.jpg" class="img-fluid d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="cover container">
+              <h4>Take your business to the next level </h4>
+              <br>
+              <h2>
+                DIGITAL SOLUTIONS TO ENHANCE
+                <br />
+                YOUR JOURNEY
+                <br>
+                <router-link to="/contact" class="btn btn-primary btn-aminated">Contact Us</router-link>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="../assets/laptop-g30479cdb3_1920.jpg" class="img-fluid d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="cover container">
+              <h4>Take your business to the next level </h4>
+              <br>
+              <h2>
+                DIGITAL SOLUTIONS TO ENHANCE
+                <br />
+                YOUR JOURNEY
+                <br>
+                <router-link to="/contact" class="btn btn-primary btn-aminated">Contact Us</router-link>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="../assets/work.jpg" class="img-fluid d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="cover container">
+              <h4>Take your business to the next level </h4>
+              <br>
+              <h2>
+                DIGITAL SOLUTIONS TO ENHANCE
+                <br />
+                YOUR JOURNEY
+                <br>
+                <router-link to="/contact" class="btn btn-primary btn-aminated">Contact Us</router-link>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="home">
-    <section class="hero">
+    <!--  <section class="hero">
       <div class="hero-text container">
         <div class="cover container">
           <h4>Take your business to the next level </h4>
@@ -11,21 +71,20 @@
             YOUR JOURNEY
             <br>
             <router-link to="/contact" class="btn btn-primary btn-aminated">Contact Us</router-link>
-            <!-- <button onclick="window.print()">Print this page</button> -->
           </h2>
         </div>
       </div>
 
     </section>
+ -->
 
 
-
-    <section class="body">
+    <section class="container body">
 
       <div>
         <div class="row">
           <div class="col-lg-6">
-            <img src="../assets/work.jpg" class="image img-fluid" alt="">
+            <img src="../assets/business.jpg" class="image img-fluid" alt="">
           </div>
           <div class="col-lg-6">
             <h3>Who are we</h3>
@@ -108,15 +167,128 @@
       ServicesView,
       TestimonyView,
       ContactView,
-     // CarouselPage
+      // CarouselPage
     },
   };
 </script>
 
 <style lang="scss" scoped>
+  @media (min-width: 550px) {
+    .img-fluid {
+      width: 100%;
+      height: 85vh;
+      background-size: cover;
+      text-align: center;
+      opacity: 0.9;
+      z-index: 1;
+    }
+  }
+
+
+
+  h4 {
+    font-size: 30px;
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    color: #ffff;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+
+
+  .cover {
+    background-color: rgba(0, 0, 0, 0.478);
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    animation: moveInRight 3s ease-out;
+    margin-bottom: 100px;
+
+  }
+
+
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+
+
+    80% {
+      transform: translateX(10px);
+    }
+
+
+    100% {
+      opacity: 1;
+      transform: translate(0) rotate(180deg);
+    }
+  }
+
+
+
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px) rotate(0deg);
+    }
+
+    80% {
+      transform: translateX(-20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  @keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+
+
+
+  h2 {
+    animation: moveInRight 3s ease-out;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+
+  }
+
   .body {
     margin: 10px;
-    padding: 50px;
+    padding: 20px;
+
+    @media (max-width: 550px) {
+      width: 100%;
+
+    }
+
+    .image {
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #0005;
+    height: 50vh;
+
+    @media (max-width: 550px) {
+               width: 100%;
+
+          }
+  }
   }
 
   .logo {
@@ -164,8 +336,9 @@
   }
 
   .image {
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 5px 10px #0005;
+    
   }
 
   h3,
@@ -193,7 +366,7 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.886);
     height: 100vh;
-  
+
     img {
       object-fit: cover;
       height: 100%;
@@ -205,9 +378,9 @@
       padding: 20px;
       text-align: center;
       border-radius: 8px;
-      
 
-      
+
+
     }
 
     .hero-text {

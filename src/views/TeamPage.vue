@@ -1,5 +1,6 @@
 <template>
-     <div class="header">
+    
+    <div class="header">
           <h1 class="titre">
                Our Team
           </h1>
@@ -84,7 +85,6 @@
           <h3>Contact Us</h3>
           <contact-view></contact-view>
      </section>
-
 
 </template>
 
