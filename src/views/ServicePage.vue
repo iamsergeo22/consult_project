@@ -13,10 +13,32 @@
           <div class="row">
                <div class="col-lg-4">
                     <div class="card" style="width: 25rem;">
-                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
+                         <img src="../assets/bank.jpg" class="card-img-top img-fluid"
                               alt="...">
                          <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <h5 class="card-title">Banking hardwares</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the
+                                   bulk of the card's content.</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-lg-4">
+                    <div class="card" style="width: 25rem;">
+                         <img src="../assets/implementation.jpg" class="card-img-top img-fluid"
+                              alt="...">
+                         <div class="card-body">
+                              <h5 class="card-title">Implementation</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the
+                                   bulk of the card's content.</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-lg-4">
+                    <div class="card" style="width: 25rem;">
+                         <img src="../assets/digital-agri.jpg" class="card-img-top img-fluid"
+                              alt="...">
+                         <div class="card-body">
+                              <h5 class="card-title">Digital Agriculture</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the
                                    bulk of the card's content.</p>
                          </div>
@@ -27,7 +49,7 @@
                          <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
                               alt="...">
                          <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <h5 class="card-title">Hot & cooling systems</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the
                                    bulk of the card's content.</p>
                          </div>
@@ -35,10 +57,10 @@
                </div>
                <div class="col-lg-4">
                     <div class="card" style="width: 25rem;">
-                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
+                         <img src="../assets/web-apps.jpg" class="card-img-top img-fluid"
                               alt="...">
                          <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <h5 class="card-title">Web Applications</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the
                                    bulk of the card's content.</p>
                          </div>
@@ -46,32 +68,10 @@
                </div>
                <div class="col-lg-4">
                     <div class="card" style="width: 25rem;">
-                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
+                         <img src="../assets/consulting.jpg" class="card-img-top img-fluid"
                               alt="...">
                          <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the
-                                   bulk of the card's content.</p>
-                         </div>
-                    </div>
-               </div>
-               <div class="col-lg-4">
-                    <div class="card" style="width: 25rem;">
-                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
-                              alt="...">
-                         <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the
-                                   bulk of the card's content.</p>
-                         </div>
-                    </div>
-               </div>
-               <div class="col-lg-4">
-                    <div class="card" style="width: 25rem;">
-                         <img src="../assets/pexels-asad-photo-maldives-9482122.jpg" class="card-img-top img-fluid"
-                              alt="...">
-                         <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <h5 class="card-title">Consulting</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the
                                    bulk of the card's content.</p>
                          </div>

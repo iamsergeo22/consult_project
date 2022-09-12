@@ -9,7 +9,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="5000">
-          <img src="../assets/business.jpg" class="img-fluid d-block w-100" alt="...">
+          <img src="../assets/consulting.jpg" class="img-fluid d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <div class="cover container">
               <h4>Take your business to the next level </h4>
@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <img src="../assets/laptop-g30479cdb3_1920.jpg" class="img-fluid d-block w-100" alt="...">
+          <img src="../assets/banking.jpg" class="img-fluid d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <div class="cover container">
               <h4>Take your business to the next level </h4>
@@ -79,12 +79,12 @@
  -->
 
 
-    <section class="container body">
+    <section class="body">
 
-      <div>
+      <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="../assets/business.jpg" class="image img-fluid" alt="">
+            <img src="../assets/consulting.jpg" class="image img-fluid" alt="">
           </div>
           <div class="col-lg-6">
             <h3>Who are we</h3>
