@@ -1,27 +1,30 @@
 <template>
   <section class="services">
+     <h3>Services We Offer</h3>
+      <hr style="width: 15%; border: 5px solid #5fc2e8; border-radius: 5px; background-color: #5fc2e8;">
+      <p>Our commitment is to deliver results in your business through quality products and services.</p>
     <div class="">
       <div class="row">
         <div class="col-lg-3">
-          <img class="image img-fluid" src="../assets/pos1.jpg" alt="">
+          <img class="image img-fluid" src="../assets/bank.jpg" alt="">
           <router-link to="" class="link">
             <h2> Banking hardwares </h2>
           </router-link>
         </div>
         <div class="col-lg-3">
-          <img class="image img-fluid" src="../assets/engineer-icon-735790.png" alt="">
+          <img class="image img-fluid" src="../assets/implementation.jpg" alt="">
           <router-link to="" class="link">
             <h2> Implementation </h2>
           </router-link>
         </div>
         <div class="col-lg-3">
-          <img class="image img-fluid" src="../assets/agriculture.jpg" alt="">
+          <img class="image img-fluid" src="../assets/digital-agri.jpg" alt="">
           <router-link to="" class="link">
             <h2> Digital Agriculture </h2>
           </router-link>
         </div>
         <div class="col-lg-3">
-          <img class="image img-fluid" src="../assets/air-condition.jpg" alt="">
+          <img class="image img-fluid" src="../assets/laptop-gc9ce0bcef_640.jpg" alt="">
           <router-link to="" class="link">
             <h2> Hot & cooling systems </h2>
           </router-link>
@@ -72,8 +75,23 @@
 </template>
 
 <style lang="scss" scoped>
+    h3,
+  p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #5fc2e8;
+  }
   .services {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 
     @media (min-width: 550px) {
@@ -93,18 +111,22 @@
 
     img {
       align-items: center;
-      padding: 15px;
+      
 
 
     }
 
+    .image {
+      border-radius: 5px;
+      box-shadow: 0 5px 10px #0005;
+    }
     .row {
       text-align: center;
       padding: 10px;
     }
 
     .col-lg-3 {
-      padding: 15px;
+      padding: 17px;
     }
 
     .link {

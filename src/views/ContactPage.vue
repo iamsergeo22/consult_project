@@ -191,11 +191,12 @@
 
 
 
-     .header {
+    .header {
           height: 45vh;
-          background-image: url("../assets/banner.png");
-          background-color: rgb(0, 0, 0);
+          background-image: url("../assets/consulting.jpg");
+          background-color: rgba(0, 0, 0, 0.819);
           background-size: cover;
+          opacity: 0.9;
           background-position: top;
           position: relative;
 

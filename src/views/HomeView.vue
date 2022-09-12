@@ -111,11 +111,8 @@
     </section>
 
 
-    <section class="service">
+    <section class="conatiner  service">
 
-      <h3>Services We Offer</h3>
-      <hr style="width: 15%; border: 5px solid #5fc2e8; border-radius: 5px; background-color: #5fc2e8;">
-      <p>Our commitment is to deliver results in your business through quality products and services.</p>
       <services-view></services-view>
 
     </section>
@@ -133,7 +130,8 @@
 
       <div class="container">
         <div class="logo">
-          <img src="../assets/suninvest.png" class="image" width="20%" alt="">
+          <!-- <img src="../assets/suninvest.png" class="image" width="20%" alt=""> -->
+          <img src="../assets/fesa.jpg" class="image" width="20%" alt="">
           <img src="../assets/fesa.jpg" class="image" width="20%" alt="">
         </div>
       </div>
@@ -299,8 +297,8 @@
   }
 
   .service {
-    margin: 20px;
-    padding: 50px;
+    
+    padding: 10px;
     background-color: white;
 
   }
